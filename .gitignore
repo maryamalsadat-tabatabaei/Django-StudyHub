@@ -1,0 +1,49 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+logs/
+*.sqlite3
+
+# Local development settings
+*.env
+*.env.*
+*.sqlite3
+*.db
+
+# Static files (usually collected into a 'static' directory)
+/static/
+/media/
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Environment variables
+.env
+
+# Secret keys and sensitive information
+secret_key.txt
+settings.py
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# IDE settings
+.vscode/
+.idea/
+
+# Compiled languages
+*.o
+*.out
+
+# Editor-specific backup files
+*~
+
+# Django migrations
+**/migrations/
